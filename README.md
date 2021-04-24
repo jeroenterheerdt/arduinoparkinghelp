@@ -3,6 +3,13 @@ A simple parking help that lights up an green LED when car is inside of garage o
 It can be ran on any Arduino. I run it on an one-chip Arduino (atmega328).
 I used Doctek's excellent tutorial to get the one-chip Arduino flashed: https://www.instructables.com/Cheap-One-Chip-Arduino/
 
+Required:
+- atmega328 or another arduino
+- 10k resistor when using atmega
+- two leds (one green, one red) + resistors
+- hc-sr04 ultrasonic sensor
+- wires/breadboard/pcb and the like
+
 See sketch below. Power this using 5V (from a simple USB plug for example).
 ![image](sketch.png?raw=true)
 
